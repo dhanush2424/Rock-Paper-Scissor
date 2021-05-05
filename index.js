@@ -12,7 +12,7 @@ i=5;w=0;l=0;
 while(i--){
     let b=prompt('Enter rock/paper/scissor');
     let a=Math.floor(Math.random()*3)+1;
-    x=check(b,arr[a-1]);
+    x=check(b.toLowerCase(),arr[a-1]);
     l+=x[0];
     w+=x[1];
     console.log(x[2]);
