@@ -17,6 +17,15 @@ while(i--){
     w+=x[1];
     console.log(x[2]);
 }
-if (l==w) console.log('Tie');
-else if (l>w) console.log('Sorry you lose the game');
-else console.log('Congrats you won the game');
+if (l==w) {
+    console.log('Tie');
+    alert('Tie');
+}
+else if (l>w){
+    console.log('Sorry you lose the game');
+    alert('Sorry you lose the game better luck next time');
+}
+else {
+    console.log('Congrats you won the game');
+    alert('Congrats you won the game');
+}
